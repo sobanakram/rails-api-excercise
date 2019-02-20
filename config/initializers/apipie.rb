@@ -14,11 +14,6 @@ Apipie.configure do |config|
       {
           'error': 'Error Message'
       }
-
-     Default Success format.
-      {
-          'message': 'Error Message'
-      }
   "
   # where is your API defined?
   config.api_controllers_matcher = File.join(Rails.root, 'app', 'controllers', 'api', '**', '*.rb')
